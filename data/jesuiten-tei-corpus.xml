@@ -17508,7 +17508,9 @@
             </body>
         </text>
     </TEI>
-    <TEI version="5.0"
+    
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0"
         xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://diglib.hab.de/rules/schema/mss/v1.0/cataloguing.xsd"
         xml:id="OeNB_cod_12123_tei-msDesc">
         <teiHeader>
@@ -17540,35 +17542,65 @@
                             <idno>Cod. 12123</idno>
                         </msIdentifier>
                         <head>
-                            <title>Litterae annuae provinciae Austriae Societatis Iesu a.
-                                1729</title>
+                            <title>Litterae annuae provinciae Austriae Societatis Iesu a. 1729</title>
                             <origDate notBefore="0001" notAfter="0010"/>
-                            <origPlace/>
-                            <note type="facs"><ref target=""/></note>
-                            <note type="catalogue"><ref target=""/></note>
+                            <origPlace ref="#jesuiten_place__1">Wien (?)</origPlace>
+                            <note type="facs"><ref target="#"/></note>
+                            <note type="catalogue"><ref target="http://data.onb.ac.at/rec/AC13948903"/></note>
                         </head>
                         <msContents>
+                            <summary>Der Bericht ist in 14 Kapitel gegliedert.
+                                <list>
+                                    <item n="1"><locus>2r-5v</locus> Allgemeine Informationen; Anzahl der Mitglieder in den Orten: <placeName ref="#jesuiten_place__15">Buda</placeName>, <placeName ref="#jesuiten_place__21">Košice</placeName>, <placeName ref="#jesuiten_place__26">Klagenfurt</placeName>, <placeName ref="#jesuiten_place__33">Cluj-Napoca</placeName>, <placeName ref="#jesuiten_place__11">Krems</placeName>, <placeName ref="#jesuiten_place__29">Rijeka</placeName>, <placeName ref="#jesuiten_place__14">Kőszeg</placeName>, <placeName ref="#jesuiten_place__2">Graz</placeName>, <placeName ref="#jesuiten_place__8">Győr</placeName>, <placeName ref="#jesuiten_place__25">Judenburg</placeName>, <placeName ref="#jesuiten_place__9">Ljubljana</placeName>, <placeName ref="#jesuiten_place__24">Leoben</placeName>, <placeName ref="#jesuiten_place__20">Levoča</placeName>, <placeName ref="#jesuiten_place__3">Linz</placeName>, <placeName ref="#jesuiten_place__19">Banská Bystrica</placeName>, <placeName ref="#jesuiten_place__65">Wiener Neustadt</placeName>, <placeName ref="#jesuiten_place__7">Passau</placeName>, <placeName ref="#jesuiten_place__5">Bratislava</placeName>, <placeName ref="#jesuiten_place__13">Sopron</placeName>, <placeName ref="#jesuiten_place__4">Steyr</placeName>, <placeName ref="#jesuiten_place__17">Skalica</placeName>, <placeName ref="#jesuiten_place__28">Triest</placeName>, <placeName ref="#jesuiten_place__18">Trenčín</placeName>, <placeName ref="#jesuiten_place__6">Trnava</placeName>, <placeName ref="#jesuiten_place__30">Varaždin</placeName>, <orgName ref="#jesuiten_org__1">Domus Professa Viennensis</orgName>, <orgName ref="#jesuiten_org__2">Collegium Viennense Academicum</orgName>, <orgName ref="#jesuiten_org__4">Domus probationis S. Anna</orgName>, <orgName ref="#jesuiten_org__56">Collegium Ungariense</orgName>, <orgName ref="#jesuiten_org__18">Collegium Zagrabiense</orgName>, <orgName ref="#jesuiten_org__58">Residentia Agriensis</orgName>, <orgName ref="#jesuiten_org__57">Residentia Carolina</orgName>, <placeName ref="#jesuiten_place__73">Sibiu</placeName>, <placeName ref="#jesuiten_place__16">Komarom</placeName>, <placeName ref="#jesuiten_place__72">Prešov</placeName>, <placeName ref="#jesuiten_place__57">Gyöngyös</placeName>, <placeName ref="#jesuiten_place__50">Millstatt</placeName>, <placeName ref="jesuiten_place__74">Baia Mare</placeName>, <placeName ref="#jesuiten_place__76">Sárospatak</placeName>, <orgName ref="#jesuiten_org__59">Residentia Psononiensis</orgName>, <placeName ref="#jesuiten_place__31">Pécs</placeName>, <placeName ref="#jesuiten_place__77">Rožňava</placeName>, <placeName ref="#jesuiten_place__78">Spis</placeName>, <placeName ref="#jesuiten_place__75">Banská Štiavnica</placeName>, <placeName ref="#jesuiten_place__64">Žireč</placeName>, <placeName ref="#jesuiten_place__80">Esztergom</placeName>, <placeName ref="#jesuiten_place__58">Satu Mare</placeName>, <placeName ref="#jesuiten_place__44">Traunkirchen</placeName>, <placeName ref="#jesuiten_place__81">Kláštor pod Znievom</placeName>, <placeName ref="#jesuiten_place__82">Oradea</placeName>, <placeName ref="#jesuiten_place__83">Odorheiu Secuiesc</placeName>, <orgName ref="#jesuiten_org__60">Missio Alba regalensis</orgName>, <placeName ref="#jesuiten_place__34">Belgrad</placeName>, <placeName ref="#jesuiten_place__85">Brașov</placeName>, <placeName ref="#jesuiten_place__86">Osijek</placeName>, <placeName ref="#jesuiten_place__68">Leopoldov</placeName>, <placeName ref="#jesuiten_place__69">Petrovaradin</placeName>, <placeName ref="#jesuiten_place__87">Špania Dolina</placeName> und <placeName ref="#jesuiten_place__71">Târgu Mureș</placeName>.</item>
+                                    <item n="2"><locus>5v-11v</locus> Fructus e religiosa nostrorum cum proximis conversatione decerpti // über die religiösen Beziehungen zu den Nachbarn</item>
+                                    <item n="3"><locus>11v-15v</locus> Infidelium atque haereticorum ad ecclesiam per nostros facta accesio // über die Die Aufnahme von Ungläubigen und Ketzern in die Kirche (inkl Anzahl pro Haus);</item>
+                                    <item n="4"><locus>15v-21r</locus>Quo audientium fructu praedicatum sit pro concione verbum dei // über Predigten</item>
+                                    <item n="5"><locus>21r-24v</locus>Quae cura a sociis in tradendis christianae fidei rudimentis sit posita // Vermittlung der Grundlagen des christlichen Glaubens</item>
+                                    <item n=""><locus></locus></item>
+                                    <item n=""><locus></locus></item>
+                                    <item n=""><locus></locus></item>
+                                    <item n=""><locus></locus></item>
+                                    <item n=""><locus></locus></item>
+                                    <item n=""><locus></locus></item>
+                                    <item n=""><locus></locus></item>
+                                    <item n=""><locus></locus></item>
+                                    <item n="14"><locus>101v-151v</locus> <term ref="#jesuiten_topic__1">Defunctorum nostrorum eulogia</term></item>
+                                </list></summary>
                             <textLang mainLang="lat"/>
-                            <msItem>
-                                <locus from="x" to="x"/>
-                                <note type="title"/>
-                            </msItem>
+                            
+                            <!--<msItem>
+                            <locus from="x" to="x"/>
+                            <note type="title"/>
+                        </msItem>-->
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="paper">
                                     <extent>
-                                        <measure type="leavesCount" quantity="" unit="folio"/>
+                                        <measure type="leavesCount" quantity="152" unit="folio">152</measure>
                                         <dimensions type="leaf_current" unit="mm">
-                                            <height/>
-                                            <width/>
+                                            <height>327</height>
+                                            <width>200</width>
                                         </dimensions>
                                     </extent>
-                                    <collation/>
                                 </supportDesc>
-                                <accMat/>
-                            </objectDesc>
+                            </objectDesc>                        
+                            <accMat/>
                         </physDesc>
+                        <history>
+                            <p>Der Bericht wurde in den folgenden Orten gelesen (cf. Notiz auf f. 1r): 
+                                <placeName ref="#jesuiten_place__2">Graz</placeName>
+                                <placeName ref="#jesuiten_place__30">Varazdin</placeName>
+                                <placeName ref="#jesuiten_place__10">Zagreb</placeName>
+                                <placeName ref="#jesuiten_place__9">Ljubljana</placeName>
+                                <placeName ref="#jesuiten_place__29">Rijeka</placeName>
+                                <placeName ref="#jesuiten_place__28">Triest</placeName>
+                                <placeName ref="#jesuiten_place__27">Gorizia</placeName>
+                                <placeName ref="#jesuiten_place__26">Klagenfurt</placeName>
+                                <placeName ref="#jesuiten_place__25">Judenburg</placeName>
+                                <placeName ref="#jesuiten_place__24">Leoben</placeName> im Zeitraum vom 28.10.1730 bis 30.04.1731.
+                            </p>
+                        </history>
                     </msDesc>
                 </sourceDesc>
             </fileDesc>
